@@ -1,0 +1,50 @@
+/*----- style.css ----- */
+* {
+    padding-left: 30px;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+body {
+    background-color:  rgb(223, 85, 85);
+}
+div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(43, 43, 43);
+    height: 70px; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: monospace;
+    margin-top: 10px;
+}
+ol{
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+li {
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+} 
+
+p {
+    font-size: 18px;
+}
+
